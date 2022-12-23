@@ -1,0 +1,97 @@
+.subBannerText {
+  font-family: "GmarketSansMedium";
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  margin: 584px 0 0 374px;
+}
+
+.subBannerTextLeft {
+  line-height: 50px;
+}
+
+.subBannerTextRight {
+  margin-left: 26px;
+  line-height: 50px;
+}
+
+.subBannerTools {
+  display: flex;
+  margin-top: 12px;
+}
+
+.subBannerTools p {
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+  background-size: 20px;
+}
+
+.subInfo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.subInfoContent {
+  width: 1412px;
+  margin: 0 auto;
+}
+
+.subInfo .infoTitle > p {
+  text-align: center;
+  font-family: "GmarketSansMedium";
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.subCategori .subCategoriTitle {
+  font-family: "GmarketSansBold";
+  font-size: 36px;
+}
+
+.subCategori .subCategoriText {
+  font-family: "GmarketSansMedium";
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 30px;
+}
+
+.categoriBoxesTop {
+  width: 1412px;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoriBoxesBottom {
+  width: 1412px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showPage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.showPageContent {
+  width: 1412px;
+  margin: 0 auto;
+}
+
+.showPageCategoriTitle {
+  font-family: "GmarketSansBold";
+  font-size: 50px;
+}
+
+.showPageCategoriText {
+  font-family: "GmarketSansMedium";
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.showPageCategori img {
+  display: block;
+}

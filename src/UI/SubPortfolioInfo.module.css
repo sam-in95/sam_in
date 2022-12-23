@@ -1,0 +1,34 @@
+.subPageBanner {
+  width: 100%;
+  height: 980px;
+  margin: 0 auto;
+}
+
+.subBannerText {
+  font-family: "GmarketSansMedium";
+  font-size: 16px;
+  /* color: #222; */
+  position: absolute;
+  display: flex;
+}
+
+.subBannerTextLeft {
+  line-height: 50px;
+}
+
+.subBannerTextRight {
+  margin-left: 26px;
+  line-height: 50px;
+}
+
+.subBannerTools {
+  display: flex;
+  margin-top: 12px;
+}
+
+.subBannerTools p {
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+  background-size: 20px;
+}
