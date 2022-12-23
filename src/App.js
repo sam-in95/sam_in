@@ -28,7 +28,7 @@ function App(props) {
 
       <MouseCursor />
 
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Main />}></Route>

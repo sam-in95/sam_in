@@ -17,7 +17,7 @@ const Header = (props) => {
         backgroundColor: `${props.bgColor}`,
       }}
     >
-      <a href="http://polyjungsudesign.com/portfolio/parksemin/">
+      <a href="http://sam-in.com">
         <h1
           style={{
             width: "200px",
