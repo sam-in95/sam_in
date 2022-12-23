@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b2a19f39.css",
+    "main.js": "/static/js/main.c5c2dcc6.js",
+    "static/js/787.310c8749.chunk.js": "/static/js/787.310c8749.chunk.js",
+    "static/media/Disket-Mono-Regular.woff2": "/static/media/Disket-Mono-Regular.8087cb17cab8adbab610.woff2",
+    "static/media/Disket-Mono-Bold.woff2": "/static/media/Disket-Mono-Bold.04f5248c61ef728c6559.woff2",
+    "index.html": "/index.html",
+    "main.b2a19f39.css.map": "/static/css/main.b2a19f39.css.map",
+    "main.c5c2dcc6.js.map": "/static/js/main.c5c2dcc6.js.map",
+    "787.310c8749.chunk.js.map": "/static/js/787.310c8749.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2a19f39.css",
+    "static/js/main.c5c2dcc6.js"
+  ]
+}
