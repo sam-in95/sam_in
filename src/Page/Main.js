@@ -149,7 +149,7 @@ const Main = (props) => {
           className={classes.hello_1}
           style={{ transform: `translateX(${-scrollPosition + 2500}px)` }}
         >
-          HOLA
+          HELLO
         </p>
         <p
           className={classes.hello_2}
