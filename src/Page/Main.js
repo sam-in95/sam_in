@@ -25,7 +25,8 @@ const Main = (props) => {
     } else {
       setFixPosition(true);
     }
-    console.log(window.scrollY, fixPosition);
+    //console.log(window.scrollY, fixPosition);
+    // 스크롤 콘솔
   };
 
   useEffect(() => {
@@ -37,65 +38,79 @@ const Main = (props) => {
 
   const [pofol, setPofol] = useState([
     {
+      text: "UDEMY 리뉴얼",
+      imgText: "udemy",
+      id: "1",
+      type: "UXUI",
+      link: "/Udemy",
+    },
+    {
+      text: "오늘의 위스키",
+      imgText: "today_whisky",
+      id: "2",
+      type: "UXUI",
+      link: "/Today_Whisky",
+    },
+    {
       text: "COMPOSE COFFEE",
       imgText: "compose_coffee",
-      id: "1",
+      id: "3",
       type: "UXUI",
       link: "/Compose",
     },
     {
       text: "NESPRESSO",
       imgText: "nespresso",
-      id: "2",
+      id: "4",
       type: "WEB",
       link: "/Nespresso",
     },
     {
       text: "DYSON",
       imgText: "dyson",
-      id: "3",
+      id: "5",
       type: "WEB",
       link: "/Dyson",
     },
     {
       text: "SMOOTHIE KING",
       imgText: "smoothie_king",
-      id: "4",
+      id: "6",
       type: "WEB",
       link: "/SmoothieKing",
     },
     {
       text: "NOTION",
       imgText: "notion",
-      id: "5",
+      id: "7",
       type: "WEB",
       link: "/Notion",
     },
     {
       text: "제주 전통주 인포그래픽",
       imgText: "jeju_drink",
-      id: "6",
+      id: "8",
       type: "ILLUSTRATION",
       link: "/JejuDrink",
     },
     {
       text: "쿠팡이츠 랜딩페이지 제작",
       imgText: "coupang",
-      id: "7",
+      id: "9",
       type: "WEB",
       link: "/CoupangEats",
     },
     {
       text: "펫토브 영상 광고 제작",
       imgText: "petove",
-      id: "8",
+      id: "10",
       type: "BRANDING",
       link: "/Petove",
     },
     {
       text: "폐교 활용 방안",
       imgText: "osigae",
-      id: "9",
+      id: "11",
       type: "UXUI",
       link: "/Osigae",
     },

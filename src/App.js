@@ -15,6 +15,8 @@ import Notion from "./Page/Notion";
 import CoupangEats from "./Page/CoupangEats";
 import Petove from "./Page/Petove";
 import Osigae from "./Page/Osigae";
+import Today_Whisky from "./Page/Today_Whisky";
+import Udemy from "./Page/Udemy";
 
 import classes from "./App.module.css";
 import "./reset.css";
@@ -41,6 +43,8 @@ function App(props) {
           <Route path="/CoupangEats" element={<CoupangEats />}></Route>
           <Route path="/Petove" element={<Petove />}></Route>
           <Route path="/Osigae" element={<Osigae />}></Route>
+          <Route path="/Today_Whisky" element={<Today_Whisky />}></Route>
+          <Route path="/Udemy" element={<Udemy />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

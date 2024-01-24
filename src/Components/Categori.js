@@ -4,7 +4,7 @@ import classes from "./Categori.module.css";
 
 const Categori = (props) => {
   const cateType = [
-    { text: "ALL", id: "1", type: "ALL" },
+    { text: "ALL", id: "1", type: "ALL", className: `${classes.btnOn}` },
     { text: "UI/UX", id: "2", type: "UXUI" },
     { text: "WEB", id: "3", type: "WEB" },
     { text: "ETC", id: "4", type: "ETC" },
