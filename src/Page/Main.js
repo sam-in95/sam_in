@@ -25,8 +25,7 @@ const Main = (props) => {
     } else {
       setFixPosition(true);
     }
-    //console.log(window.scrollY, fixPosition);
-    // 스크롤 콘솔
+    console.log(window.scrollY, fixPosition);
   };
 
   useEffect(() => {

@@ -14,23 +14,19 @@ const Header = (props) => {
         alignItems: "center",
         position: "absolute",
         zIndex: "2",
-        textAlign: "right",
         backgroundColor: `${props.bgColor}`,
       }}
     >
       <a
-        href="http://sam-in.com"
-        style={{
-          textAlign: "center",
-        }}
+        href="http://polyjungsudesign.com/portfolio/parksemin/"
+        style={{ textAlign: "center" }}
       >
         <h1
           style={{
             width: "200px",
             fontFamily: "GmarketSansBold",
             fontSize: "24px",
-            textAlign: "center",
-            alignItems: "center",
+            textAlign: "center,",
             color: `${props.titleColor}`,
           }}
         >
